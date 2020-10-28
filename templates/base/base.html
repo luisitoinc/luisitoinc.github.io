@@ -1,0 +1,25 @@
+<html>
+<head>
+
+    <title> TITULO BASE </title>
+    <link  rel="stylesheet" type="text/css" href="{{url_for("static",filename = "css/style.css")}}"   >
+
+    
+</head>
+<body>
+
+
+    <h4>     GRÁFICOS INTERACTIVOS ALTAIR </h4>
+
+   
+    
+
+    {% block content %}
+
+    {% endblock   %}
+    <img src = "{{ url_for("static",filename="img/test.jpg")}}">
+    
+
+
+</body>
+</html>
